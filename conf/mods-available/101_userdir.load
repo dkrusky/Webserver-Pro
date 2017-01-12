@@ -1,0 +1,1 @@
+LoadModule userdir_module bin/modules/apache/mod_userdir.so

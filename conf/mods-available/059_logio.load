@@ -1,0 +1,1 @@
+LoadModule logio_module bin/modules/apache/mod_logio.so

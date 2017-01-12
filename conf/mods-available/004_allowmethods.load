@@ -1,0 +1,1 @@
+LoadModule allowmethods_module bin/modules/apache/mod_allowmethods.so

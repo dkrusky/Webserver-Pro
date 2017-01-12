@@ -1,0 +1,2 @@
+# Depends: dbd authz_core
+LoadModule authz_dbd_module bin/modules/apache/mod_authz_dbd.so

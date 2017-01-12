@@ -1,0 +1,1 @@
+LoadModule actions_module bin/modules/apache/mod_actions.so

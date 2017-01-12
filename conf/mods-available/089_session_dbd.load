@@ -1,0 +1,2 @@
+# Depends: session
+LoadModule session_dbd_module bin/modules/apache/mod_session_dbd.so

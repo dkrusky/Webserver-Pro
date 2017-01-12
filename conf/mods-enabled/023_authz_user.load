@@ -1,0 +1,2 @@
+# Depends: authz_core
+LoadModule authz_user_module bin/modules/apache/mod_authz_user.so

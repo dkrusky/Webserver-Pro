@@ -1,0 +1,1 @@
+LoadModule cgi_module bin/modules/apache/mod_cgi.so

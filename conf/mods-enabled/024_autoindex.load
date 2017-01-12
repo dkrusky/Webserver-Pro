@@ -1,0 +1,1 @@
+LoadModule autoindex_module bin/modules/apache/mod_autoindex.so

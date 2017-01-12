@@ -1,0 +1,1 @@
+LoadModule buffer_module bin/modules/apache/mod_buffer.so

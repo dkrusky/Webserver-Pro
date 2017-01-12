@@ -1,0 +1,2 @@
+# Depends: dbd
+LoadModule authn_dbd_module bin/modules/apache/mod_authn_dbd.so

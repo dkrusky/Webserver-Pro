@@ -1,0 +1,1 @@
+LoadModule filter_module bin/modules/apache/mod_filter.so

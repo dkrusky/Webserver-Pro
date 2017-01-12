@@ -1,0 +1,1 @@
+LoadModule status_module bin/modules/apache/mod_status.so

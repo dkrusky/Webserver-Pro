@@ -1,0 +1,1 @@
+LoadModule dumpio_module bin/modules/apache/mod_dumpio.so

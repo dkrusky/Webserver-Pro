@@ -1,0 +1,1 @@
+LoadModule mime_module bin/modules/apache/mod_mime.so

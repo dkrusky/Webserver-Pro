@@ -1,0 +1,1 @@
+LoadModule socache_shmcb_module bin/modules/apache/mod_socache_shmcb.so

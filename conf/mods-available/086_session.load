@@ -1,0 +1,1 @@
+LoadModule session_module bin/modules/apache/mod_session.so

@@ -1,0 +1,1 @@
+LoadModule php5_module bin/php5apache2_4.dll

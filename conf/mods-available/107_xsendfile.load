@@ -1,0 +1,1 @@
+LoadModule xsendfile_module bin/modules/apache/mod_xsendfile.so

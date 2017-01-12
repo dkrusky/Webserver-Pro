@@ -1,0 +1,1 @@
+LoadModule info_module bin/modules/apache/mod_info.so

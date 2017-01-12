@@ -1,0 +1,1 @@
+LoadModule sed_module bin/modules/apache/mod_sed.so

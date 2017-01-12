@@ -1,0 +1,2 @@
+# Depends: cache
+LoadModule file_cache_module bin/modules/apache/mod_file_cache.so

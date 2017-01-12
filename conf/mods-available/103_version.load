@@ -1,0 +1,1 @@
+LoadModule version_module bin/modules/apache/mod_version.so
