@@ -29,7 +29,10 @@ Everything is completely self-contained, and is virtual hosting ready.
 
 The folder structure is laid out similar to the modern layout of apache installs on Ubuntu/Debian as follows :
 
+----
+
 `bin` - This folder contains all binaries. Adding `d:\server\bin` to your system path will enable access to all commands like nodejs, npm, etc.
+
 ----
 `conf` - Every config file is located in here, except for `php.ini`, `openssl.cfg` (default), `browscap.ini`, and `cacert.pem`
 
@@ -43,21 +46,22 @@ Inside this folder are the following subfolders :
 * `sites-enabled` - Website conf files for sites that are enabled.
 
 *Enabled* - This means that the .load/.conf files are loaded when the server starts
+ 
 *Available* - This contains only what is available. Folders with this are not loaded when the server starts.
 
 If you ran `make-ca.bat` then you will have the additional folders :
 
-`ca` - This is your ROOT CA. No more self-signed certificates. You now have your own CA for signing.
-`certificates` - Where your certificates are located when creating them with your CA.
+* `ca` - This is your ROOT CA. No more self-signed certificates. You now have your own CA for signing.
+* `certificates` - Where your certificates are located when creating them with your CA.
 
 You also have the following files in this folder for general configuration :
 
-`httpd.conf` - Apache config file. Generally, you won't even need to touch this anymore.
-`ports.conf` - Assign which port(s) Apache is listening on. Enabling the SSL module will trigger the SSL port flag in this config.
-`openssl-ca.cfg` - You shouldn't need to touch this. It is used to help build your CA (Certificate Authority)
-`openssl-intermediate.cfg` - You shouldn't need to touch this. It is used to build your Intermediate Certificate Authority for your CA.
-`openssl.cnf` - General openssl config.
-`mongod.cfg` - MongoDB configuration.
+* `httpd.conf` - Apache config file. Generally, you won't even need to touch this anymore.
+* `ports.conf` - Assign which port(s) Apache is listening on. Enabling the SSL module will trigger the SSL port flag in this config.
+* `openssl-ca.cfg` - You shouldn't need to touch this. It is used to help build your CA (Certificate Authority)
+* `openssl-intermediate.cfg` - You shouldn't need to touch this. It is used to build your Intermediate Certificate Authority for your CA.
+* `openssl.cnf` - General openssl config.
+* `mongod.cfg` - MongoDB configuration.
 
 ----
 
